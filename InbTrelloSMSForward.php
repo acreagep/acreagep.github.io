@@ -60,9 +60,9 @@
     //////Utilities End/////////////////////////////////////////////////
     
     // Get request params
-    $from_number = $_REQUEST["From"];         // Sender's phone number
-    $to_number = $_REQUEST["To"];            // Receiver's phone number - Plivo number
-    $text = $_REQUEST["Text"];               // The text received on Plivo number
+    $from_number = $_REQUEST["from"];         // Sender's phone number
+    $to_number = $_REQUEST["to"];            // Receiver's phone number - Plivo number
+    $text = $_REQUEST["msg"];               // The text received on Plivo number
 
     //file_put_contents($file, "Message received  to: $to_number from: $from_number: $text\n", FILE_APPEND | LOCK_EX);
 
